@@ -8,7 +8,7 @@
   <link rel="stylesheet" href=styles.css />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-  <title>Document</title>
+  <title>Instagram Feed Using Bootstrap</title>
 </head>
 
 <body>
@@ -25,7 +25,8 @@
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav align-items-end w-100 justify-content-end">
           <li class="nav-item active">
-            <button type="button" class="btn btn-primary btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <button type="button" class="btn btn-primary btn btn-success" data-bs-toggle="modal"
+              data-bs-target="#exampleModal">
               Create a new post
             </button>
 
@@ -91,39 +92,39 @@
   <div class="tab-content" id="myTabContent">
     <div class="tab-pane fade show active" id="multiPhoto" role="tabpanel" aria-labelledby="multiPhoto-tab">
       <div class="row">
-        <div class="col-4 py-2">
+        <div class="col-sm-4 col-md-6 col-lg-4 mt-3 mb-2 py-2">
           <img class="rounded img-fluid w-100 photos"
             src="https://pbs.twimg.com/profile_images/981583549944954885/Alghfrec_400x400.jpg" />
         </div>
-        <div class="col-4 py-2">
+        <div class="col-sm-4 col-md-6 col-lg-4 mt-3 mb-2 py-2">
           <img class="rounded img-fluid w-100 photos"
             src="https://fastly.picsum.photos/id/837/400/400.jpg?hmac=oK_8tA5sHrZRVjPS5aEW1a478wxmLJfjcnBcoYUsxe0" />
         </div>
-        <div class="col-4 py-2">
+        <div class="col-sm-4 col-md-6 col-lg-4 mt-3 mb-2 py-2">
           <img class="rounded img-fluid w-100 photos"
             src="https://fastly.picsum.photos/id/764/400/400.jpg?hmac=doCboeyT_4w7z4gLWA47S8B_j9HpZHGyLnA2Hxowb6g" />
         </div>
-        <div class="col-4 py-2">
+        <div class="col-sm-4 col-md-6 col-lg-4 mt-3 mb-2 py-2">
           <img class="rounded img-fluid w-100 photos"
             src="https://fastly.picsum.photos/id/908/400/400.jpg?hmac=3pKfxqW5DCoI4dK40V6rLAtT5YC-qJAWohG3ErN-S74" />
         </div>
-        <div class="col-4 py-2">
+        <div class="col-sm-4 col-md-6 col-lg-4 mt-3 mb-2 py-2">
           <img class="rounded img-fluid w-100 photos"
             src="https://fastly.picsum.photos/id/41/400/400.jpg?hmac=NH3IBQXgqMIidNwbm1htW8tY8jFEK3UxM0zswT9bdXI" />
         </div>
-        <div class="col-4 py-2">
+        <div class="col-sm-4 col-md-6 col-lg-4 mt-3 mb-2 py-2">
           <img class="rounded img-fluid w-100 photos"
             src="https://fastly.picsum.photos/id/134/400/400.jpg?hmac=t95B0gxiQNjhV2UjCwn8aaQcd01C4qKtpx3DrUqrb2s" />
         </div>
-        <div class="col-4 py-2">
+        <div class="col-sm-4 col-md-6 col-lg-4 mt-3 mb-2 py-2">
           <img class="rounded img-fluid w-100 photos"
             src="https://fastly.picsum.photos/id/795/400/400.jpg?hmac=mmGHCbis-pqjssxb_bq5FPGiEmO3uKJROlzfkmfl5BE" />
         </div>
-        <div class="col-4 py-2">
+        <div class="col-sm-4 col-md-6 col-lg-4 mt-3 mb-2 py-2">
           <img class="rounded img-fluid w-100 photos"
             src="https://fastly.picsum.photos/id/216/400/400.jpg?hmac=mkrlCwfcoKEpKBm_iHGGj5fhm3mWC4Rsz49lRfJDMo4" />
         </div>
-        <div class="col-4 py-2">
+        <div class="col-sm-4 col-md-6 col-lg-4 mt-3 mb-2 py-2">
           <img class="rounded img-fluid w-100 photos"
             src="https://fastly.picsum.photos/id/787/400/400.jpg?hmac=xnl76GSsbmwn43aqNGsNzrH5yD8lB_eZGtW92hn9rZQ" />
         </div>
@@ -134,8 +135,19 @@
         <div class="col-4 singleImage border">
           <h5 class="instaPost pt-3">Amazing GOAL by Cristiano!</h5>
           <p class="text-end">06/09</p>
-          <img
-            src="https://pbs.twimg.com/profile_images/981583549944954885/Alghfrec_400x400.jpg"
+          <img src="https://pbs.twimg.com/profile_images/981583549944954885/Alghfrec_400x400.jpg" class="image"
+            alt="...">
+          <div class="card-body">
+            <p class="postLikes"><b>24874 Likes</b></p>
+            <p class="postText">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-4 singleImage border">
+          <h5 class="instaPost pt-3">Lorem, ipsum dolor.</h5>
+          <p class="text-end">04/09</p>
+          <img src="https://fastly.picsum.photos/id/819/400/400.jpg?hmac=nIjUpDyMWzyQRDIGTqSRBn223EMw5_f8tD5ghQRPTQU"
             class="image" alt="...">
           <div class="card-body">
             <p class="postLikes"><b>24874 Likes</b></p>
@@ -147,8 +159,7 @@
         <div class="col-4 singleImage border">
           <h5 class="instaPost pt-3">Lorem, ipsum dolor.</h5>
           <p class="text-end">04/09</p>
-          <img
-            src="https://fastly.picsum.photos/id/819/400/400.jpg?hmac=nIjUpDyMWzyQRDIGTqSRBn223EMw5_f8tD5ghQRPTQU"
+          <img src="https://fastly.picsum.photos/id/1045/400/400.jpg?hmac=aw8pmClsM82yxjPdAjR7CjRmgchOXpmQ5nB-n_bJsH4"
             class="image" alt="...">
           <div class="card-body">
             <p class="postLikes"><b>24874 Likes</b></p>
@@ -160,8 +171,7 @@
         <div class="col-4 singleImage border">
           <h5 class="instaPost pt-3">Lorem, ipsum dolor.</h5>
           <p class="text-end">04/09</p>
-          <img
-            src="https://fastly.picsum.photos/id/1045/400/400.jpg?hmac=aw8pmClsM82yxjPdAjR7CjRmgchOXpmQ5nB-n_bJsH4"
+          <img src="https://fastly.picsum.photos/id/671/400/400.jpg?hmac=2K775xejzInV7brNV4L9QNbv_d_WH0VrIkQYuaHyeh8"
             class="image" alt="...">
           <div class="card-body">
             <p class="postLikes"><b>24874 Likes</b></p>
@@ -173,21 +183,7 @@
         <div class="col-4 singleImage border">
           <h5 class="instaPost pt-3">Lorem, ipsum dolor.</h5>
           <p class="text-end">04/09</p>
-          <img
-            src="https://fastly.picsum.photos/id/671/400/400.jpg?hmac=2K775xejzInV7brNV4L9QNbv_d_WH0VrIkQYuaHyeh8"
-            class="image" alt="...">
-          <div class="card-body">
-            <p class="postLikes"><b>24874 Likes</b></p>
-            <p class="postText">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-          </div>
-        </div>
-      </div>
-      <div class="row justify-content-center">
-        <div class="col-4 singleImage border">
-          <h5 class="instaPost pt-3">Lorem, ipsum dolor.</h5>
-          <p class="text-end">04/09</p>
-          <img
-            src="https://fastly.picsum.photos/id/610/400/400.jpg?hmac=MjvHW1fTBkifVnK6d5IJgLDtdpM5_n8WqDBv8imkpcw"
+          <img src="https://fastly.picsum.photos/id/610/400/400.jpg?hmac=MjvHW1fTBkifVnK6d5IJgLDtdpM5_n8WqDBv8imkpcw"
             class="image" alt="...">
           <div class="card-body">
             <p class="postLikes"><b>24874 Likes</b></p>
@@ -198,5 +194,4 @@
     </div>
   </div>
 </body>
-
 </html>
